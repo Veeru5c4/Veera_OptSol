@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AED8126874F0BFBAD97F630 /* Pods_Veera_OptiSolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E17BD3D46C2EA635A1F51B /* Pods_Veera_OptiSolUITests.framework */; };
+		9150373EEC00BDFBB9190556 /* Pods_Veera_OptiSolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66719A1E92883AD0721D84B /* Pods_Veera_OptiSolTests.framework */; };
 		A30CCAA12538A61A00EB4A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CCAA02538A61A00EB4A7D /* AppDelegate.swift */; };
 		A30CCAA32538A61A00EB4A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CCAA22538A61A00EB4A7D /* ViewController.swift */; };
 		A30CCAA62538A61A00EB4A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30CCAA42538A61A00EB4A7D /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		A30CCAAB2538A61E00EB4A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30CCAA92538A61E00EB4A7D /* LaunchScreen.storyboard */; };
 		A30CCAB62538A61E00EB4A7D /* Veera_OptiSolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CCAB52538A61E00EB4A7D /* Veera_OptiSolTests.swift */; };
 		A30CCAC12538A61E00EB4A7D /* Veera_OptiSolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30CCAC02538A61E00EB4A7D /* Veera_OptiSolUITests.swift */; };
+		A3E182BB2539BF7A00D47015 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E182BA2539BF7A00D47015 /* CollectionViewCell.swift */; };
+		A3E182BE2539C61B00D47015 /* VeeraSwamy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3E182BD2539C61B00D47015 /* VeeraSwamy.jpg */; };
+		A3E182C02539CFBC00D47015 /* bg-loader.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3E182BF2539CFBC00D47015 /* bg-loader.jpg */; };
+		A3E182C22539E0EA00D47015 /* FooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E182C12539E0EA00D47015 /* FooterCell.swift */; };
+		B15E361CA54AF8D4A0CC18FC /* Pods_Veera_OptiSol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE6AFE258A5D98080221137 /* Pods_Veera_OptiSol.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		062DFDD634EAF7DDE2FE93DE /* Pods-Veera_OptiSolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veera_OptiSolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Veera_OptiSolUITests/Pods-Veera_OptiSolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1570C5579996909E87780E11 /* Pods-Veera_OptiSol.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veera_OptiSol.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Veera_OptiSol/Pods-Veera_OptiSol.debug.xcconfig"; sourceTree = "<group>"; };
+		3D8E5F56A83994C55A754D18 /* Pods-Veera_OptiSolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veera_OptiSolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Veera_OptiSolTests/Pods-Veera_OptiSolTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C648822C82549194172148C /* Pods-Veera_OptiSol.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veera_OptiSol.release.xcconfig"; path = "Pods/Target Support Files/Pods-Veera_OptiSol/Pods-Veera_OptiSol.release.xcconfig"; sourceTree = "<group>"; };
+		69E17BD3D46C2EA635A1F51B /* Pods_Veera_OptiSolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veera_OptiSolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30CCA9D2538A61A00EB4A7D /* Veera_OptiSol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veera_OptiSol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30CCAA02538A61A00EB4A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A30CCAA22538A61A00EB4A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,14 @@
 		A30CCABC2538A61E00EB4A7D /* Veera_OptiSolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Veera_OptiSolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30CCAC02538A61E00EB4A7D /* Veera_OptiSolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veera_OptiSolUITests.swift; sourceTree = "<group>"; };
 		A30CCAC22538A61E00EB4A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E182BA2539BF7A00D47015 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A3E182BD2539C61B00D47015 /* VeeraSwamy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VeeraSwamy.jpg; sourceTree = "<group>"; };
+		A3E182BF2539CFBC00D47015 /* bg-loader.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-loader.jpg"; sourceTree = "<group>"; };
+		A3E182C12539E0EA00D47015 /* FooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCell.swift; sourceTree = "<group>"; };
+		AE828779E5EE71B89313AD45 /* Pods-Veera_OptiSolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veera_OptiSolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Veera_OptiSolTests/Pods-Veera_OptiSolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C66719A1E92883AD0721D84B /* Pods_Veera_OptiSolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veera_OptiSolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE6AFE258A5D98080221137 /* Pods_Veera_OptiSol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veera_OptiSol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E482FD81046AE397651B7415 /* Pods-Veera_OptiSolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veera_OptiSolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Veera_OptiSolUITests/Pods-Veera_OptiSolUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B15E361CA54AF8D4A0CC18FC /* Pods_Veera_OptiSol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9150373EEC00BDFBB9190556 /* Pods_Veera_OptiSolTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AED8126874F0BFBAD97F630 /* Pods_Veera_OptiSolUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40900720F8D3C5F6356BD058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFE6AFE258A5D98080221137 /* Pods_Veera_OptiSol.framework */,
+				C66719A1E92883AD0721D84B /* Pods_Veera_OptiSolTests.framework */,
+				69E17BD3D46C2EA635A1F51B /* Pods_Veera_OptiSolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A30CCA942538A61A00EB4A7D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,8 @@
 				A30CCAB42538A61E00EB4A7D /* Veera_OptiSolTests */,
 				A30CCABF2538A61E00EB4A7D /* Veera_OptiSolUITests */,
 				A30CCA9E2538A61A00EB4A7D /* Products */,
+				ADDB5A4EAE0560E4F2458BFB /* Pods */,
+				40900720F8D3C5F6356BD058 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +134,14 @@
 			children = (
 				A30CCAA02538A61A00EB4A7D /* AppDelegate.swift */,
 				A30CCAA22538A61A00EB4A7D /* ViewController.swift */,
+				A3E182C12539E0EA00D47015 /* FooterCell.swift */,
+				A3E182BF2539CFBC00D47015 /* bg-loader.jpg */,
+				A3E182BA2539BF7A00D47015 /* CollectionViewCell.swift */,
 				A30CCAA42538A61A00EB4A7D /* Main.storyboard */,
 				A30CCAA72538A61E00EB4A7D /* Assets.xcassets */,
 				A30CCAA92538A61E00EB4A7D /* LaunchScreen.storyboard */,
 				A30CCAAC2538A61E00EB4A7D /* Info.plist */,
+				A3E182BD2539C61B00D47015 /* VeeraSwamy.jpg */,
 			);
 			path = Veera_OptiSol;
 			sourceTree = "<group>";
@@ -125,6 +164,19 @@
 			path = Veera_OptiSolUITests;
 			sourceTree = "<group>";
 		};
+		ADDB5A4EAE0560E4F2458BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1570C5579996909E87780E11 /* Pods-Veera_OptiSol.debug.xcconfig */,
+				4C648822C82549194172148C /* Pods-Veera_OptiSol.release.xcconfig */,
+				AE828779E5EE71B89313AD45 /* Pods-Veera_OptiSolTests.debug.xcconfig */,
+				3D8E5F56A83994C55A754D18 /* Pods-Veera_OptiSolTests.release.xcconfig */,
+				E482FD81046AE397651B7415 /* Pods-Veera_OptiSolUITests.debug.xcconfig */,
+				062DFDD634EAF7DDE2FE93DE /* Pods-Veera_OptiSolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30CCAC52538A61E00EB4A7D /* Build configuration list for PBXNativeTarget "Veera_OptiSol" */;
 			buildPhases = (
+				9C159D1A403AF7555E59C5D2 /* [CP] Check Pods Manifest.lock */,
 				A30CCA992538A61A00EB4A7D /* Sources */,
 				A30CCA9A2538A61A00EB4A7D /* Frameworks */,
 				A30CCA9B2538A61A00EB4A7D /* Resources */,
+				E0AD13A609A7D5AAA41E0CE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30CCAC82538A61E00EB4A7D /* Build configuration list for PBXNativeTarget "Veera_OptiSolTests" */;
 			buildPhases = (
+				1DB78BADCBB143D6EA9A3BCF /* [CP] Check Pods Manifest.lock */,
 				A30CCAAD2538A61E00EB4A7D /* Sources */,
 				A30CCAAE2538A61E00EB4A7D /* Frameworks */,
 				A30CCAAF2538A61E00EB4A7D /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A30CCACB2538A61E00EB4A7D /* Build configuration list for PBXNativeTarget "Veera_OptiSolUITests" */;
 			buildPhases = (
+				0DAB6FCA20D0F0C09C7D0811 /* [CP] Check Pods Manifest.lock */,
 				A30CCAB82538A61E00EB4A7D /* Sources */,
 				A30CCAB92538A61E00EB4A7D /* Frameworks */,
 				A30CCABA2538A61E00EB4A7D /* Resources */,
@@ -230,8 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30CCAAB2538A61E00EB4A7D /* LaunchScreen.storyboard in Resources */,
+				A3E182BE2539C61B00D47015 /* VeeraSwamy.jpg in Resources */,
 				A30CCAA82538A61E00EB4A7D /* Assets.xcassets in Resources */,
 				A30CCAA62538A61A00EB4A7D /* Main.storyboard in Resources */,
+				A3E182C02539CFBC00D47015 /* bg-loader.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +309,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DAB6FCA20D0F0C09C7D0811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veera_OptiSolUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB78BADCBB143D6EA9A3BCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veera_OptiSolTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C159D1A403AF7555E59C5D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veera_OptiSol-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0AD13A609A7D5AAA41E0CE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Veera_OptiSol/Pods-Veera_OptiSol-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Veera_OptiSol/Pods-Veera_OptiSol-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A30CCA992538A61A00EB4A7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +395,8 @@
 			files = (
 				A30CCAA32538A61A00EB4A7D /* ViewController.swift in Sources */,
 				A30CCAA12538A61A00EB4A7D /* AppDelegate.swift in Sources */,
+				A3E182C22539E0EA00D47015 /* FooterCell.swift in Sources */,
+				A3E182BB2539BF7A00D47015 /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +567,7 @@
 		};
 		A30CCAC62538A61E00EB4A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1570C5579996909E87780E11 /* Pods-Veera_OptiSol.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +586,7 @@
 		};
 		A30CCAC72538A61E00EB4A7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C648822C82549194172148C /* Pods-Veera_OptiSol.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +605,7 @@
 		};
 		A30CCAC92538A61E00EB4A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE828779E5EE71B89313AD45 /* Pods-Veera_OptiSolTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +627,7 @@
 		};
 		A30CCACA2538A61E00EB4A7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8E5F56A83994C55A754D18 /* Pods-Veera_OptiSolTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +649,7 @@
 		};
 		A30CCACC2538A61E00EB4A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E482FD81046AE397651B7415 /* Pods-Veera_OptiSolUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +670,7 @@
 		};
 		A30CCACD2538A61E00EB4A7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062DFDD634EAF7DDE2FE93DE /* Pods-Veera_OptiSolUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
